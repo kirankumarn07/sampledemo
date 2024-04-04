@@ -49,6 +49,8 @@ app.delete('/deletedata/:id',async(req,res)=>{
     }
 })
 
+console.log("API testing");
+
 app.listen(PORT,(req,res)=>{
     console.log(`Databse connected at ${PORT}`)
 })
